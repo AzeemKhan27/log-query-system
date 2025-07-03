@@ -1,0 +1,42 @@
+[
+  {
+    "level": "error",
+    "message": "Database connection failed",
+    "timestamp": "2025-07-03T12:00:00.000Z",
+    "resourceId": "server",
+    "traceId": "abc123",
+    "spanId": "span-001",
+    "commit": "def456",
+    "id": "1751545186417"
+  },
+  {
+    "level": "error",
+    "message": "Database connection failed 2",
+    "timestamp": "2025-07-03T12:00:00.000Z",
+    "resourceId": "server-1",
+    "traceId": "abc1234",
+    "spanId": "span-0011",
+    "commit": "def4567",
+    "id": "17515452194401"
+  },
+  {
+    "level": "warning",
+    "message": "High CPU usage",
+    "timestamp": "2025-07-03T12:15:00.000Z",
+    "resourceId": "server-2",
+    "traceId": "xyz789",
+    "spanId": "span-002",
+    "commit": "ghi789",
+    "id": "1751545241223"
+  },
+  {
+    "level": "info",
+    "message": "User login successful",
+    "timestamp": "2025-07-03T12:30:00.000Z",
+    "resourceId": "server-1",
+    "traceId": "pqr456",
+    "spanId": "span-003",
+    "commit": "jkl012",
+    "id": "1751545254394"
+  }
+]
