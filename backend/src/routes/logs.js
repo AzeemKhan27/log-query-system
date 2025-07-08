@@ -20,6 +20,8 @@ router.post('/', async (req, res) => {
       id: Date.now().toString(),
       timestamp: new Date(log.timestamp).toISOString(),
     };
+    console.log("newLog = > ", newLog);
+
     await writeLog(newLog);
     res.status(201).json(newLog);
   } catch (error) {
